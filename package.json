@@ -4,7 +4,8 @@
   "description": "Integration tests verify how different parts of a software system (modules, services) work together. They ensure data flows smoothly and interactions between components function as expected. ",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "example": "src"
   },
   "scripts": {
     "test": ""
@@ -28,5 +29,8 @@
     "jest": "^29.7.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
