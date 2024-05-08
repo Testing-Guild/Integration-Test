@@ -6,7 +6,7 @@ class SayMyNam {
 }
 const router = express.Router();
 
-router.get("/say-name/:name", (req, res) => {
+router.post("/say-name/:name", (req, res) => {
   const { name } = req.params;
   res.send({ name: new SayMyNam(name) });
 });
