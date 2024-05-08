@@ -27,6 +27,7 @@
   "homepage": "https://github.com/Testing-Guild/Integration-Test#readme",
   "devDependencies": {
     "jest": "^29.7.0",
+    "supertest": "^7.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
