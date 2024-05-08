@@ -1,0 +1,27 @@
+{
+  "name": "integration-test",
+  "version": "1.0.0",
+  "description": "Integration tests verify how different parts of a software system (modules, services) work together. They ensure data flows smoothly and interactions between components function as expected. ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Testing-Guild/Integration-Test.git"
+  },
+  "keywords": [
+    "integration-test",
+    "integration-testing",
+    "integration"
+  ],
+  "author": "Mahdi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Testing-Guild/Integration-Test/issues"
+  },
+  "homepage": "https://github.com/Testing-Guild/Integration-Test#readme"
+}
