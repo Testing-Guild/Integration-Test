@@ -2,8 +2,7 @@ package main
 
 import (
 	"testing"
-
-	"github.com/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func Calculate(x int, y int) int {
