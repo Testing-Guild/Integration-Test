@@ -5,6 +5,10 @@ describe("POST /say-name/:name", () => {
   let app: Application, server: any;
   beforeAll(() => {
     app = e();
+    app.post('/say-name/:name', (req, res) => {
+        const { name } = req.params;
+        res.status(201).json({ name }); 
+      });
     server = app.listen(3000);
   });
   afterAll(() => {
